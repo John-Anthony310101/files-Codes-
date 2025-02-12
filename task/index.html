@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task page</title>
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="./asserts/css/style.css">
+    <link rel="stylesheet" href="./asserts/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./asserts/css/fontawesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+    <!-- scripts -->
+    <script src="./asserts/js/bootstrap.bundle.min.js"></script>
+    <script src="./asserts/js/script.js"></script>
+</head>
+
+<body>
+    <section class="first" id="top">
+        <div class="container mobinav fixed-top" style="background-color: rgba(0, 0, 0, 0.374);">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">HOME</a>
+                <a href="#">ABOUT</a>
+                <a href="#">PAGES</a>
+                <a href="#">GALLERY</a>
+                <a href="#">BLOG</a>
+                <a href="#">CONTACT</a>
+                <a href="tel:+123456789"><i class="fa-solid fa-phone"></i>&nbsp; +123 456 789</a>
+                <a href="mailto:ingo@yourdomain.com"><i class="fa-solid fa-envelope"></i>&nbsp; info@yourdomain.com</a>
+                <!-- <div class="position-absolute text-center">
+                    <div class="position-relative top-50 start-50 translate-middle">
+                        <p class="text-center float-start "><a href=""><i class="fa-brands fa-facebook-f"></i></a></p>
+                        <p class="text-center float-start "><a href=""><i class="fa-brands fa-twitter"></i></a></p>
+                        <p class="text-center float-start "><a href=""><i class="fa-brands fa-instagram"></i></a></p>
+                        <p class="text-center float-start "><a href=""><i class="fa-brands fa-linkedin-in"></i></a></p>
+                    </div>
+                </div> -->
+
+            </div>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span><a href="">
+                <p class="fw-bolder float-end pt-3">amiso</p>
+            </a>
+        </div>
+        <img src="./asserts/img/women.png" height="700" width="500" class="z-n1 float-end img-fluid tabnav pt-4">
+        <div class="p-3 container ">
+            <span class="tabnav position-relative top-0 start-0" id="nav3">
+                <p class="p-3 float-start"><a href="tel:+123456789"><i class="fa-solid fa-phone"></i> +123 456 789</a>
+                </p>
+                <p class="p-3"><a href="mailto:ingo@yourdomain.com"><i class="fa-solid fa-envelope"></i>
+                        info@yourdomain.com</a></p>
+                <span class="position-absolute top-0 end-0 f-flex">
+                    <p id="icon" class="float-start"><a href=""><i class="fa-brands fa-facebook-f"></i></a></p>
+                    <p id="icon" class="float-start"><a href=""><i class="fa-brands fa-twitter"></i></a></p>
+                    <p id="icon" class="float-start"><a href=""><i class="fa-brands fa-instagram"></i></a></p>
+                    <p id="icon" class="float-start"><a href=""><i class="fa-brands fa-linkedin-in"></i></a></p>
+                    <p id="icon" class="float-start"><a id="quote" class="bg-primary" href=""><i
+                                class="fa-solid fa-calculator"></i> GET A QUOTE</a></p>
+                </span>
+            </span>
+            <div class=" tabnav container z-1 position-relative w-100 rounded-2" style="background-color: #f8f9fabd;">
+                <h3 class="fw-bolder text-dark p-3">amiso</h3>
+                <span class="position-absolute top-0 end-0 f-flex" id="nav2">
+                    <p class="float-start p-3 mt-3"><a class="text-dark" href="">HOME</a></p>
+                    <p class="float-start p-3 mt-3"><a class="text-dark" href="">ABOUT</a></p>
+                    <p class="float-start p-3 mt-3"><a class="text-dark" href="">PAGES</a></p>
+                    <p class="float-start p-3 mt-3"><a class="text-dark" href="">GALLERY</a></p>
+                    <p class="float-start p-3 mt-3"><a class="text-dark" href="">BLOG</a></p>
+                    <p class="float-start p-3 mt-3"><a class="text-dark" href="">CONTACT</a></p>
+            </div>
+        </div>
+        <div class="container-md p-5 pt-5 mobinav" id="top"
+            style="background: url(./asserts/img/women.png); background-repeat: no-repeat; background-size:contain; background-position: right;">
+            <p class="" style="text-shadow: rgb(0, 0, 0) 1px 0 10px;">RENEW YOUR LOOK</p>
+            <h1 class="fw-bolder" style="font-size: 50px; text-shadow: rgb(0, 0, 0) 1px 0 10px;">A TRADITION OF <br>
+                QUALITY CLEANING</h1>
+            <p class="fw-lighter btn border-1 border rounded-2 px-5 " style="text-shadow: rgb(0, 0, 0) 1px 0 10px;"><a
+                    href=""> Contact Us </a></p>
+        </div>
+
+
+        <div class="container-md p-5 pt-1 tabnav" id="">
+            <!-- <img src="./asserts/img/women.png" class="img-fluid z-n1" alt=""> -->
+            <span class="z-1">
+                <p>RENEW YOUR LOOK</p>
+                <h1 class="fw-bolder" style="font-size: 50px;">A TRADITION OF <br> QUALITY CLEANING</h1>
+                <p class="fw-lighter btn border-1 border rounded-2 px-5 "><a href=""> Contact Us </a></p>
+            </span>
+        </div>
+    </section>
+
+    <section class="second">
+        <div class="container text-center">
+            <div class="">
+                <div class="row">
+                    <div id="mar" class="col-md-4 p-3" style="margin-top: -75px;">
+                        <div class="bg-white p-3">
+                            <i class="fa-solid fa-hands-bubbles"></i><br><br>
+                            <h4>Professional Cleaing</h4><br>
+                            <p>House Keeping is responsible for minor security in hotel Ecosystem for Food and Cleaner
+                                through</p><br>
+                        </div>
+                    </div>
+                    <div id="mar" class="col-md-4 p-3" style="margin-top: -75px;">
+                        <div class="bg-white p-3">
+                            <i class="fa-solid fa-broom"></i><br><br>
+                            <h4>Professional Cleaing</h4><br>
+                            <p>House Keeping is responsible for minor security in hotel Ecosystem for Food and Cleaner
+                                through</p><br>
+                        </div>
+                    </div>
+                    <div id="mar" class="col-md-4 p-3" style="margin-top: -75px;">
+                        <div class="bg-white p-3">
+                            <i class="fa-solid fa-house-chimney-user"></i><br><br>
+                            <h4>Professional Cleaing</h4><br>
+                            <p>House Keeping is responsible for minor security in hotel Ecosystem for Food and Cleaner
+                                through</p><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container text-start pt-5">
+                <div>
+                    <div class="row text-justify">
+                        <div class="col-md-4 p-3">
+                            <div class="">
+                                <h3 class="fw-bolder">A clean House is a Happy Place !</h3>
+                                <p class="fw-bolder text-white">Washla has met the demands of a growing world</p><br>
+                            </div>
+                        </div>
+                        <div class="col-md-4 p-3">
+                            <div class="">
+                                <p class="text-white text-justify"><i class="fa-solid fa-w text-white fs-3"></i>ashla
+                                    customers has a
+                                    tremendous opportunity
+                                    to answer the call of
+                                    logistic needs across the globe. Has 26 affiliated state soybean association
+                                    representing 30 soybean-producing state.</p><br>
+                            </div>
+                        </div>
+                        <div class="col-md-4 p-3">
+                            <div class="">
+                                <p class="text-white text-justify">World's leading non-asset-based supply
+                                    chain management companies, we design and implement industry-leading. We specialise
+                                    in intelligent & effective search and believes in the powerof partnership to grow
+                                    business.</p><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    <section class="bg-white third">
+        <div class="">
+            <div class="text-center p-md-5">
+                <h5 class="fw-lighter ">WHY CHOOSE US</h5>
+                <h1 class="fw-bolder">Tradition of Trust</h1>
+                <p class="fw-lighter">We specialise in intelligent & effective Search and believes in the power of <br>
+                    partnership to grow business.</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4 p-3">
+                    <div class="p-3">
+                        <h4><i class="fa-solid fa-user-tie rounded-circle shadow p-3 fs-1"></i></h4>
+                        <h5 class="fw-bolder">Professional Team</h5>
+                        <p class="fw-lighter">Our team uses a sanitizing solution to wipe down light switches doorknobs.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 p-3">
+                    <div class="p-3">
+                        <h4><i class="fa-solid fa-phone-volume rounded-circle shadow p-3 fs-1"></i></h4>
+                        <h5 class="fw-bolder">Professional Team</h5>
+                        <p class="fw-lighter">Our team uses a sanitizing solution to wipe down light switches doorknobs.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 p-3">
+                    <div class="p-3">
+                        <h4><i class="fa-solid fa-circle-check rounded-circle shadow p-3 fs-1"></i></h4>
+                        <h5 class="fw-bolder">Professional Team</h5>
+                        <p class="fw-lighter">Our team uses a sanitizing solution to wipe down light switches doorknobs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="tabnav">
+        <div class="row" style="margin-bottom: -60px;">
+            <div class="col-md-4" style="background-color: #eaa500; height: 400px;">
+                <img src="./asserts/img/pic2.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-8">
+                <div class="row w-100 p-3 " style=" margin-top: 50px; margin-left: -100px;">
+                    <div class="col-md-12">
+                        <div class="z-1 shadow" style="width:917px;">
+                            <div class=" p-md-5 bg-white">
+                                <p class="fw-lighter">MADE FOR YOU</p>
+                                <h3 class="fw-bolder"><b>A cleaner Place is a safer place</b></h3>
+                                <p class="fw-lighter fs-6">Washla cleaning service. We are a company dedicated to
+                                    giving our
+                                    customer back the time they
+                                    deserve to enjoy the thngs they love.</p>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <i class="fa-solid fa-brush fs-1"></i><br>
+                                        <h6 class="fw-bolder">Professional Cleaning</h6>
+                                        <p class="fw-lighter">Housekeeping in responsible for minor security hotel.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <i class="fa-solid fa-brush fs-1"></i><br>
+                                        <h6 class="fw-bolder">Professional Cleaning</h6>
+                                        <p class="fw-lighter">Housekeeping in responsible for minor security hotel.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <div class="mobinav">
+            <div class="pt-3" style="background-color: white">
+                <div class="row w-100">
+                    <div class="col-md-6">
+                        <img src="./asserts/img/pic2.png" class="img-fluid " alt="">
+                    </div>
+                    <div class="col-md-6 bg-white">
+                        <div class="p-3">
+                            <div class="p-3 w-100 bg-white">
+                                <p class="fw-lighter">MADE FOR YOU</p>
+                                <h3 class="fw-bolder"><b>A cleaner Place is a safer place</b></h3>
+                                <p class="fw-lighter fs-6">Washla cleaning service. We are a company dedicated
+                                    to
+                                    giving our
+                                    customer back the time they
+                                    deserve to enjoy the thngs they love.
+                                </p>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <i class="fa-solid fa-brush fs-1"></i><br>
+                                        <h6 class="fw-bolder">Professional Cleaning</h6>
+                                        <p class="fw-lighter">Housekeeping in responsible for minor security
+                                            hotel.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <i class="fa-solid fa-brush fs-1"></i><br>
+                                        <h6 class="fw-bolder">Professional Cleaning</h6>
+                                        <p class="fw-lighter">Housekeeping in responsible for minor security
+                                            hotel.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="fourth p-3 pt-5">
+        <div class="text-center pt-5">
+            <p class="text-white"><b>WHY CHOOSE US</b></p>
+            <h1><b>Our Great service</b></h1>
+            <p class="text-white fw-lighter">Restoring the beauty and freshness of all our upholstered fabrics and take
+                the work out of housework for you
+            </p>
+        </div>
+        <div class="container-md">
+            <div class="row pt-5">
+                <div class="col-md-4 p-3">
+                    <div class="bg-bluelight p-3">
+                        <h2><i class="fa-solid fa-broom"></i></h2>
+                        <p class="fw-bolder">Home Cleaning</p>
+                        <p class="fw-lighter">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero velit
+                            dolor expedita hic nisi nihil quisquam dolorem impedit. Velit praesentium maxime quaerat
+                            veritatis perferendis cupiditate voluptatibus perspiciatis hic dolorem numquam.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 p-3">
+                    <div class="bg-bluelight p-3">
+                        <h2><i class="fa-solid fa-hand-sparkles"></i></h2>
+                        <p class="fw-bolder">Window Cleaning</p>
+                        <p class="fw-lighter">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+                            accusantium corporis quod ad deleniti magni unde fugiat ratione autem! Dicta qui nulla
+                            voluptate deleniti ab dolores. Illo debitis magni reprehenderit.</p>
+
+                    </div>
+                </div>
+                <div class="col-md-4 p-3">
+                    <div class="bg-bluelight p-3">
+                        <h2><i class="fa-solid fa-spray-can-sparkles"></i></h2>
+                        <p class="fw-bolder">Office Cleaning</p>
+                        <p class="fw-lighter">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, aliquam
+                            consequuntur cumque possimus est magni ex iste quam quis eveniet, dolore molestiae
+                            perspiciatis expedita nemo. Magni repellat est adipisci molestiae.</p>
+                    </div>
+                </div>
+            </div>
+        </div><br>
+    </section>
+
+    <section class="bg-white w-100">
+        <div class="p-3 pt-5 text-center">
+            <p class="fw-bolder">MEET</p>
+            <h3 class="fw-bolder"><b>Our Team</b></h3>
+            <p class="fw-lighter">The Number of ourhighly experienced team is dedicated to providing you <br> with only
+                the best service we
+                can posibily provide</p>
+        </div>
+        <div class="container-md w-100">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row text-center">
+                            <div class="col-md-4 p-3">
+                                <div class="card border-0">
+                                    <img src="https://plus.unsplash.com/premium_photo-1679500354735-20bed1bc6e2d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2xlYW5pbmclMjBwcm9mZXNzaW9uYWxzfGVufDB8fDB8fHww"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body ">
+                                        <div class="bg-white shadow" style="margin-top: -30px;">
+                                            <p class="fw-bolder" style="padding-top: 5px;">Monica Gardon</p>
+                                            <p class="fw-lighter" style="margin-top: -13px; padding-bottom: 5px;">House
+                                                Cleaning</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 p-3">
+                                <div class="card border-0">
+                                    <img src="https://unsplash.com/photos/6vclNDno4Go/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mjd8fGNsZWFuaW5nJTIwcHJvZmVzc2lvbmFsc3xlbnwwfHx8fDE3MzQwMDUxNjN8MA&force=true"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body ">
+                                        <div class="bg-white shadow" style="margin-top: -30px;">
+                                            <p class="fw-bolder" style="padding-top: 5px;">Laura Jones</p>
+                                            <p class="fw-lighter" style="margin-top: -13px; padding-bottom: 5px;">
+                                                Cleaner</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 p-3">
+                                <div class="card border-0">
+                                    <img src="https://plus.unsplash.com/premium_photo-1679920026596-8a642d886ab7?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTd8fGNsZWFuaW5nJTIwcHJvZmVzc2lvbmFsc3xlbnwwfHwwfHx8MA%3D%3D"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body ">
+                                        <div class="bg-white shadow" style="margin-top: -30px;">
+                                            <p class="fw-bolder" style="padding-top: 5px;">Sara Ryan</p>
+                                            <p class="fw-lighter" style="margin-top: -13px; padding-bottom: 5px;">House
+                                                Cleaner</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row text-center">
+                            <div class="col-md-4 p-3">
+                                <div class="card border-0">
+                                    <img src="https://plus.unsplash.com/premium_photo-1679500354735-20bed1bc6e2d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2xlYW5pbmclMjBwcm9mZXNzaW9uYWxzfGVufDB8fDB8fHww"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body ">
+                                        <div class="bg-white shadow" style="margin-top: -30px;">
+                                            <p class="fw-bolder" style="padding-top: 5px;">Monica Gardon</p>
+                                            <p class="fw-lighter" style="margin-top: -13px; padding-bottom: 5px;">House
+                                                Cleaning</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 p-3">
+                                <div class="card border-0">
+                                    <img src="https://unsplash.com/photos/6vclNDno4Go/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mjd8fGNsZWFuaW5nJTIwcHJvZmVzc2lvbmFsc3xlbnwwfHx8fDE3MzQwMDUxNjN8MA&force=true"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body ">
+                                        <div class="bg-white shadow" style="margin-top: -30px;">
+                                            <p class="fw-bolder" style="padding-top: 5px;">Laura Jones</p>
+                                            <p class="fw-lighter" style="margin-top: -13px; padding-bottom: 5px;">
+                                                Cleaner</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 p-3">
+                                <div class="card border-0">
+                                    <img src="https://plus.unsplash.com/premium_photo-1679920026596-8a642d886ab7?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTd8fGNsZWFuaW5nJTIwcHJvZmVzc2lvbmFsc3xlbnwwfHwwfHx8MA%3D%3D"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body ">
+                                        <div class="bg-white shadow" style="margin-top: -30px;">
+                                            <p class="fw-bolder" style="padding-top: 5px;">Sara Ryan</p>
+                                            <p class="fw-lighter" style="margin-top: -13px; padding-bottom: 5px;">House
+                                                Cleaner</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row text-center">
+                            <div class="col-md-4 p-3">
+                                <div class="card border-0">
+                                    <img src="https://plus.unsplash.com/premium_photo-1679500354735-20bed1bc6e2d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2xlYW5pbmclMjBwcm9mZXNzaW9uYWxzfGVufDB8fDB8fHww"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body ">
+                                        <div class="bg-white shadow" style="margin-top: -30px;">
+                                            <p class="fw-bolder" style="padding-top: 5px;">Monica Gardon</p>
+                                            <p class="fw-lighter" style="margin-top: -13px; padding-bottom: 5px;">House
+                                                Cleaning</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 p-3">
+                                <div class="card border-0">
+                                    <img src="https://unsplash.com/photos/6vclNDno4Go/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mjd8fGNsZWFuaW5nJTIwcHJvZmVzc2lvbmFsc3xlbnwwfHx8fDE3MzQwMDUxNjN8MA&force=true"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body ">
+                                        <div class="bg-white shadow" style="margin-top: -30px;">
+                                            <p class="fw-bolder" style="padding-top: 5px;">Laura Jones</p>
+                                            <p class="fw-lighter" style="margin-top: -13px; padding-bottom: 5px;">
+                                                Cleaner</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 p-3">
+                                <div class="card border-0">
+                                    <img src="https://plus.unsplash.com/premium_photo-1679920026596-8a642d886ab7?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTd8fGNsZWFuaW5nJTIwcHJvZmVzc2lvbmFsc3xlbnwwfHwwfHx8MA%3D%3D"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body ">
+                                        <div class="bg-white shadow" style="margin-top: -30px;">
+                                            <p class="fw-bolder" style="padding-top: 5px;">Sara Ryan</p>
+                                            <p class="fw-lighter" style="margin-top: -13px; padding-bottom: 5px;">House
+                                                Cleaner</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="fifth">
+        <div class="container-md">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="p-md-5 text-center">
+                        <h1 class="pt-md-5 pt-3"><i
+                                class="border border-1 p-3 rounded-circle fa-solid fa-circle-play border-primary"></i>
+                        </h1>
+                        <p class="pt-md-3 fw-lighter text-white">Cleaning your worries away</p>
+                        <h3 class="fw-bolder text-white"><b>Need Help with cleaning?</b></h3><br>
+                        <a class="btn btn-primary bg-bluelight" href="#">Request a call Back</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+    </section>
+
+
+    <section class="nil">
+        <div class="container shadow" style="margin-top: -40px;">
+            <div class="row ">
+                <div class="col-md-3 bg-white p-3">
+                    <div class="row d-flex pt-3">
+                        <div class="col-4">
+                            <h1><i class="fa-regular fa-face-smile float-end"></i></h1>
+                        </div>
+                        <div class="col-8 border-end pt-3">
+                            <h5 class="float-start"><b>385</b><br>
+                                <p class="float-start fw-lighter">Happy Customers</p>
+                                </h3>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 bg-white p-3">
+                    <div class="row d-flex pt-3">
+                        <div class="col-4">
+                            <h1><i class="fa-solid fa-house-chimney-window float-end"></i></h1>
+                        </div>
+                        <div class="col-8 border-end pt-3">
+                            <h5 class="float-start"><b>842</b><br>
+                                <p class="float-start fw-lighter">Houses Cleaned</p>
+                                </h3>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 bg-white p-3">
+                    <div class="row d-flex pt-3">
+                        <div class="col-4">
+                            <h1><i class="fa-regular fa-thumbs-up float-end"></i></i></h1>
+                        </div>
+                        <div class="col-8 border-end pt-3">
+                            <h5 class="float-start"><b>489</b><br>
+                                <p class="float-start fw-lighter">Awards received</p>
+                                </h3>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 bg-white p-3">
+                    <div class="row d-flex pt-3">
+                        <div class="col-4">
+                            <h1><i class="fa-solid fa-spray-can-sparkles float-end"></i></h1>
+                        </div>
+                        <div class="col-8 pt-3">
+                            <h5 class="float-start"><b>1344</b><br>
+                                <p class="float-start fw-lighter">Glass Cleaned</p>
+                                </h3>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pt-5">
+            <div class="p-md-5">
+                <div class="text-center text-dark">
+                    <p class="fw-lighter">WHY CHOOSE US</p>
+                    <h4 class="fw-bolder"><b>Recent News</b></h4>
+                    <p class="fw-lighter">We Specialize in intelligent & effective search and believe in the power of
+                        <br> partnership to grow businesses
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-md p-3">
+            <div class="row">
+                <div class="col-md-4 p-3">
+                    <div class="card border-0">
+                        <img src="./asserts/img/women.png" alt="">
+                        <div class="position-absolute badge rounded bg-primary float-end">
+                            <p class="fw-bolder p-3">12 <br>Nov</p>
+                        </div>
+                        <div class="container-md bg-white" style="margin-top: -30px;">
+                            <div class="row text-start border-bottom border-2 border-primary shadow p-3">
+                                <div class="col-12">
+                                    <p class="fw-lighter">CLEANING</p>
+                                    <p class="fw-bolder">Temporary Rulling Issued</p>
+                                    <p class="fw-lighter">Washla has met the demands of a growning world cleaning
+                                        tremendous</p>
+                                    <div class="row d-flex">
+                                        <div class="col-md-4">
+                                            <img src="./asserts/img/pic2.png" height="70" width="80" alt=""
+                                                class="rounded-circle d-flex img-fluid">
+                                        </div>
+                                        <div class="col-md-8 pt-3">
+                                            <div>
+                                                <h6 class="fw-bolder">Martha Smith<br></h6><span class="fw-lighter">
+                                                    <p>washla CEO</p>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-3">
+                    <div class="">
+                        <div class="card border-0">
+                            <img src="./asserts/img/women.png" alt="">
+                            <div class="position-absolute badge rounded bg-primary float-end">
+                                <p class="fw-bolder p-3">12 <br>Nov</p>
+                            </div>
+                            <div class="container-md bg-white" style="margin-top: -30px;">
+                                <div class="row text-start border-bottom border-2 border-primary shadow">
+                                    <div class="col-12 p-3">
+                                        <p class="fw-lighter">CLEANING</p>
+                                        <p class="fw-bolder">Temporary Rulling Issued</p>
+                                        <p class="fw-lighter">Washla has met the demands of a growning world cleaning
+                                            tremendous</p>
+                                        <div class="row d-flex">
+                                            <div class="col-md-4">
+                                                <img src="./asserts/img/pic2.png" height="70" width="80" alt=""
+                                                    class="rounded-circle d-flex img-fluid">
+                                            </div>
+                                            <div class="col-md-8 pt-3">
+                                                <div>
+                                                    <h6 class="fw-bolder">Martha Smith<br></h6><span class="fw-lighter">
+                                                        <p>washla CEO</p>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-3">
+                    <div class="">
+                        <div class="card border-0">
+                            <img src="./asserts/img/women.png" alt="">
+                            <div class="position-absolute badge rounded bg-primary float-end">
+                                <p class="fw-bolder p-3">12 <br>Nov</p>
+                            </div>
+                            <div class="container-md bg-white" style="margin-top: -30px;">
+                                <div class="row text-start border-bottom border-2 border-primary shadow">
+                                    <div class="col-12 p-3">
+                                        <p class="fw-lighter">CLEANING</p>
+                                        <p class="fw-bolder">Temporary Rulling Issued</p>
+                                        <p class="fw-lighter">Washla has met the demands of a growning world cleaning
+                                            tremendous</p>
+                                        <div class="row d-flex">
+                                            <div class="col-md-4">
+                                                <img src="./asserts/img/pic2.png" height="70" width="80" alt=""
+                                                    class="rounded-circle d-flex img-fluid">
+                                            </div>
+                                            <div class="col-md-8 pt-3">
+                                                <div>
+                                                    <h6 class="fw-bolder">Martha Smith<br></h6><span class="fw-lighter">
+                                                        <p>washla CEO</p>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light">
+        <div class="p-3 p-md-5">
+            <div class="row">
+                <div class="col-md-3 p-3">
+                    <div class="p-3">
+                        <a href="">
+                            <h3 class="fw-bolder text-dark">amiso</h3>
+                        </a><br>
+                        <p class="fw-lighter"> Washla customers has a tremendous opportunity to answer the call of
+                            logistics</p>
+                    </div>
+                </div>
+                <div class="col-md-3 p-3">
+                    <div class="p-3">
+                        <h5 class="fw-bolder"><b>Get In Touch</b></h5>
+                        <p class="fw-lighter">8273 NW 56th Miani, Florida. <br>33195 United Statess</p>
+                        <p><a class="text-dark fw-lighter" href="mailto:info@amiso.com">info@amiso.com</a><br><a
+                                class="text-dark fw-lighter" href="tel:+12344567">052 234 456</a></p>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="col-md-3 p-3">
+                    <div class="p-3">
+                        <h5 class="fw-bolder"><b>Quick Links</b></h5>
+                        <div class="row">
+                            <div class="col-3">
+                                <p><a class="text-dark fw-lighter" href="#">Home</a><br>
+                                    <a class="text-dark fw-lighter" href="#">About</a><br>
+                                    <a class="text-dark fw-lighter" href="#">Services</a><br>
+                                    <a class="text-dark fw-lighter" href="#">Team</a>
+                                </p>
+                            </div>
+                            <div class="col-3">
+                                <p class=""><a class="text-dark float-start fw-lighter" href="#">Home</a><br>
+                                    <a class="text-dark fw-lighter" href="#">About</a><br>
+                                    <a class="text-dark fw-lighter" href="#">Services</a><br>
+                                    <a class="text-dark fw-lighter" href="#">Team</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 p-3">
+                    <div class="p-3">
+                        <h5 class="fw-bolder"><b>Our Newsletter</b></h5>
+                        <p class="fw-lighter">Subscribe to our newsletter to receive the latest news about our service.
+                        </p>
+                        <div class="input-group  bg-light">
+                            <input type="text" class="form-control" placeholder="your email address"
+                                aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class="btn btn-primary" type="button" id="button-addon2">SIGN UP</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+
+        <p class="fw-lighter pt-3 container-md text-center"><i class="fa-regular fa-copyright fw-lighter"></i> 2023
+            amiso all rights
+            reserved</p>
+        <div class="position-relative">
+            <div class="position-absolute top-50 start-50 translate-middle">
+                <p class="text-center float-start "><a href=""><i class="fa-brands fa-facebook-f p-2"></i></a></p>
+                <p class="text-center float-start "><a href=""><i class="fa-brands fa-twitter p-2"></i></a></p>
+                <p class="text-center float-start "><a href=""><i class="fa-brands fa-instagram p-2"></i></a></p>
+                <p class="text-center float-start "><a href=""><i class="fa-brands fa-linkedin-in p-2"></i></a></p>
+            </div><br><br>
+
+        </div>
+    </section>
+</body>
+
+</html>

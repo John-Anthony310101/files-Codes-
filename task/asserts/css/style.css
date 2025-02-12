@@ -1,0 +1,178 @@
+body {
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+
+@media (min-width: 1024px) {
+    .tabnav {
+        display: block;
+    }
+}
+
+@media (max-width: 1024px) {
+    .tabnav {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) {
+    .mobinav {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .mobinav {
+        display: block;
+    }
+
+}
+
+
+.first {
+    /* background-color: #28abc4; */
+    background-color: #28abc4;
+    background-size: cover;
+    color: white;
+    width: 100%;
+    height: 90vh;
+}
+
+.first a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+    float: inline-end;
+}
+
+#quote {
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#icon {
+    padding: 8px;
+    margin-top: 6px;
+}
+
+#nav2 a:link {
+    color: black;
+}
+
+#nav2 {
+    font-size: 10px;
+}
+
+#nav3 {
+    font: 10px;
+    font-weight: lighter;
+}
+
+.second {
+    background-color: #01b3e4;
+}
+
+.second .fa-solid {
+    color: #28abc4;
+    font-size: 60px;
+}
+
+.second h4 {
+    font-weight: bolder;
+}
+
+.second p {
+    font-weight: 100;
+}
+
+.third .fa-solid {
+    color: #28abc4;
+}
+
+.pic2 .fa-solid {
+    color: #01b3e4;
+}
+
+.fourth {
+    background: url(https://unsplash.com/photos/__ZMnefoI3k/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fGNsZWFuaW5nJTIwc3ByYXllcnxlbnwwfHx8fDE3MzQwMDM3MDR8MA&force=true);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.bg-bluelight {
+    background-color: rgba(2, 111, 123, 0.446);
+}
+
+.fourth .fa-solid {
+    color: white;
+}
+
+.fifth {
+    background: url(https://plus.unsplash.com/premium_photo-1720012345670-2d4c83e58225?q=80&w=2699&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.fifth .fa-solid {
+    color: #01b3e4;
+}
+
+.fifth .fa-regular {
+    color: #01b3e4;
+}
+
+.d-flex {
+    align-items: center;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.nil h1 {
+    color: #01b3e4;
+}
+
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align:center;
+}
+
+.sidenav a {
+  /* padding: 8px 8px 8px 32px; */
+  text-decoration: none;
+  font-size: 25px;
+  color: #01b3e4;
+  display: block;
+  transition: 0.3s;
+
+}
+
+.sidenav a:hover{
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
